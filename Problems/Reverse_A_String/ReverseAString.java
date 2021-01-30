@@ -4,7 +4,10 @@ public class ReverseAString {
 
     public static void main(String[] args) {
         String input = "ThisStringShouldBeReversed24";
+        System.out.println(reverseString(input));
+    }
 
+    private static String reverseString(String input){
         byte[] strAsByteArray = input.getBytes();
 
         byte[] result = new byte[strAsByteArray.length];
@@ -14,6 +17,6 @@ public class ReverseAString {
             result[i] = strAsByteArray[strAsByteArray.length - i - 1];
         }
 
-        System.out.println(new String(result));
+        return new String(result);
     }
 }
