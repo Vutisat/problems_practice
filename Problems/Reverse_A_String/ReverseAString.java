@@ -3,7 +3,7 @@ package Reverse_A_String;
 public class ReverseAString {
 
     public static void main(String[] args) {
-        String input = "ThisStringShouldBeReverse24";
+        String input = "ThisStringShouldBeReversed24";
 
         byte[] strAsByteArray = input.getBytes();
 
