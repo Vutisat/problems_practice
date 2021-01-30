@@ -6,7 +6,8 @@
 *.iws
 *.iml
 *.ipr
-out/
+.out/
+.idea/
 
 # Log file
 *.log
