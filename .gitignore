@@ -9,6 +9,14 @@
 .out/
 .idea/
 
+# IDE files
+.classpath
+.project
+.settings
+/bin/
+.DS_Store
+/out
+
 # Log file
 *.log
 
