@@ -5,6 +5,7 @@ public class ReverseAString {
     public static void main(String[] args) {
         String input = "ThisStringShouldBeReversed24";
         System.out.println(reverseString(input));
+        System.out.println(reverseString2(input));
     }
 
     private static String reverseString(String input){
@@ -18,5 +19,9 @@ public class ReverseAString {
         }
 
         return new String(result);
+    }
+
+    private static String reverseString2(String input){
+        return new StringBuilder(input).reverse().toString();
     }
 }
